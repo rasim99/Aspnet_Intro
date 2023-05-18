@@ -1,0 +1,12 @@
+﻿
+@model List<Student>
+
+<h1>Detail</h1>
+@foreach(var item in Model)
+{
+	<p>Student Id =>>> @item.Id</p>
+	<p>Student Name =>>> @item.Name</p>
+		<p>Group Id =>>> @item.GroupId</p>
+}
+
+

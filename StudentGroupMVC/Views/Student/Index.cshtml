@@ -1,0 +1,9 @@
+﻿
+@model GroupStudentsVM
+<h1>Index</h1>
+@foreach(var item in Model.students){
+	<p> Student Id =>>>>@item.Id</p>
+	<p> Student Name =>>>>@item.Name</p>
+	<p>group id =>>>>>@item.GroupId</p>
+<hr />
+}

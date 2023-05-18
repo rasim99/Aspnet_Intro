@@ -1,0 +1,12 @@
+﻿
+@model List<Student>
+
+<h1>GetStudentWithGroupId</h1>
+@foreach(var item in Model)
+{
+	<p style="color:aqua; font-size:30px"> <span style="color:red">Student Id</span>@item.Id</p>
+	<p style="color:aqua;font-size:30px"> <span style="color:fuchsia">Student Name</span>@item.Name</p>
+	<p style="color:aqua;font-size:30px"> <span style="color:darkorange">Group Id</span>@item.GroupId</p>
+	<hr style="color :crimson;font-size:250px" />
+}
+
